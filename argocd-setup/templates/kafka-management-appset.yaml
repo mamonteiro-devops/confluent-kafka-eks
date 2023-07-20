@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/RuiEusebio/kafka-management.git
+        repoURL: https://github.com/mamonteiro-devops/kafka-management.git
         targetRevision: HEAD
         path: ./.build/charts/topic-management
         helm:

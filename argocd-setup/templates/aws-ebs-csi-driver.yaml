@@ -16,8 +16,8 @@ spec:
     server: {{ .Values.dest_server }}
   project: default
   source:
-    path: .
-    repoURL: https://github.com/mamonteiro-devops/eks-aws-ebs-csi.git
+    path: eks-aws-ebs-csi
+    repoURL: https://github.com/mamonteiro-devops/confluent-kafka-eks.git
     targetRevision: HEAD
   syncPolicy:
     automated:
